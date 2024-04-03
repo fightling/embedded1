@@ -14,6 +14,8 @@ esp-backtrace = { version = "0.11.0", features = [
 ] }
 esp-hal = { version = "0.16.0", features = [ "esp32c3" ] }
 esp-println = { version = "0.9.0", features = ["esp32c3"] }
+max7219 = "0.4.2"
+
 [profile.dev]
 # Rust debug is too slow. 
 # For debug builds always builds with some optimization
