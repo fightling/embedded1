@@ -2,11 +2,7 @@
 #![no_main]
 
 use esp_backtrace as _;
-use esp_hal::{
-    gpio::IO,
-    peripherals::Peripherals,
-    prelude::*,
-};
+use esp_hal::{gpio::IO, peripherals::Peripherals, prelude::*};
 // use esp_println::println;
 // use embedded_hal::digital::v2::OutputPin;
 use max7219::*;
